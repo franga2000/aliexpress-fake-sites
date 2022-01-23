@@ -1,4 +1,4 @@
-# AliExpress fake site detector
+# AliExpress fake site blocker
 
 There are a bunch of fake machine-translated websites out there with the sole purpose of redirecting you to AliExpress.   
 You can read more about them in [this Google Search Help thread](https://support.google.com/websearch/thread/111669340/i-have-discovered-that-99-search-results-redirect-me-to-aliexpress-they-all-are-fake-online-stores?hl=en).
@@ -28,3 +28,21 @@ https://raw.githubusercontent.com/franga2000/aliexpress-fake-sites/main/domains_
 ```
 
 ![image](https://user-images.githubusercontent.com/3891092/150679054-9a9236f5-81c0-4d6a-b539-73af1821bc93.png)
+
+## How to contribute
+
+If you find a search query that exposes many such sites that aren't on the blacklist already, please let me know so I can add them to the detector.  
+If you do, please include what you searched for and what country were you searching from, so I can add it to the keywords.
+
+There are two ways of submitting:
+
+ - If you have a GitHub account, open a issue or send a pull request to the `keywords.csv` file
+ - If you don't, email aliexpress_spam@altmails.com.
+
+
+## How does it work?
+
+The file `keywords.csv` contains a list of keywords and their corresponding languages/countries that contain many fake AliExpress sites. Once a month, a program will search Google for all of those keywords and check every single result to see if it redirects to AliExpress. If it does, it's added to the list.
+
+The source code to this program is kept private to prevent simple countermeasures from the sites. If your site has been incorrectly blacklisted, please let me know in a GitHub issue or via the email address above.
+
