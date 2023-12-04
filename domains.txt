@@ -462,9 +462,6 @@ domkoptuj.si
 avtokocjancic.si
 mo-ve.si
 skiro-servis.siappmatic.dk
-photocranneries.dk
-pk-termeptuj.si
-items.si
 pizzerija-aleksandro.si
 gmproplus.si
 svicbowling.si
@@ -704,7 +701,6 @@ pieseautobv.ro
 99auto.ro
 gazetaolteniei.ro
 elinf.ro
-meloritm.ro
 sg12tm.ro
 pensiuneaprigorel.ro
 lapusresidence.ro
@@ -849,12 +845,10 @@ deal-wholesale.ee
 rehvi-vahetus.ee
 pajulapoisid.ee
 estonianoffice.ee
-fullcase.ro
 boostseoagency.co.uk
 amintiri-vii.ro
 vilkpedesbustas.lt
 albimetal.cz
-argas.si
 drevenyregal.sk
 e-secure.ee
 e34club.ee
