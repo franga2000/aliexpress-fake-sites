@@ -1,2 +1,1 @@
 # AliExpress fake site blocker
-# https://github.com/franga2000/aliexpress-fake-sites
